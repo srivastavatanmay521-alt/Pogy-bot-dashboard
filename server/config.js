@@ -23,6 +23,6 @@ export function getConfig() {
     discordClientSecret: process.env.DISCORD_CLIENT_SECRET || sharedSettings?.Client?.botSecret || "0wLhmILS9dNpcqhs3_SbD1kI5DSSrKCm",
     discordBotToken: process.env.DISCORD_BOT_TOKEN || sharedSettings?.Client?.Token || "MTUwMzA0NjY5NjQwMDMyNjY3OA.GzaHEZ.9nRDDeOPNwBdigq0sq0WEEv7tZ7NnqnvRwFXDw",
     mongoUri: process.env.MONGODB_URI || sharedSettings?.Database?.Uri || "mongodb+srv://codex:codex@cdx-in-1.0idu7ol.mongodb.net/?appName=cdx-in-1",
-    botApiBaseUrl: process.env.BOT_API_BASE_URL || "http://localhost:3001"
+    botApiBaseUrl: process.env.BOT_API_BASE_URL || "http://n6.nexcloud.in:2062"
   };
 }
